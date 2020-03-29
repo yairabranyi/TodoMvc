@@ -156,6 +156,7 @@ class App extends Component {
     return (
       <div className='main-container'>
         <h1>My Todo list</h1>
+        <h5>Created by Yair Abranyi</h5>
         <div>
           <InputItem
             value={this.state.newItem}
