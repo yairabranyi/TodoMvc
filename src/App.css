@@ -1,22 +1,107 @@
-.App {
-  text-align: center;
+
+body{
+  background-color: #f5f5f5;
 }
 
-.App-logo {
-  height: 40vmin;
+h1{
+  color: red;
+  opacity: 0.3;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-container{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-content:  center;
+  align-content: center;
+  border:rgb(228, 219, 219) 1px solid;
+  /* width: 50%; */
+  background-color: white;
+  /* padding: 30px; */
+
+  box-shadow:
+  /* The top layer shadow */
+  0 1px 1px rgba(0,0,0,0.15),
+  /* The second layer */
+  0 10px 0 -5px #eee,
+  /* The second layer shadow */
+  0 10px 1px -4px rgba(0,0,0,0.15),
+   /* The third layer */
+  0 20px 0 -10px #eee,
+  /* The third layer shadow */
+  0 20px 1px -9px rgba(0,0,0,0.15);
+  /* Padding for demo purposes */
+ 
 }
 
-.App-link {
-  color: #09d3ac;
+.todo-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  word-break: break-all;
+  /* display: inline-flex; */
+  /* padding: 3px ; */
+  width: 100%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  font-family: Roboto, sans-serif;
+  /* height: 1.5rem; */
+  /* font-weight: 100; */
+  /* font-size: 1rem; */
+  /* color: #333333; */
+}
+label{
+  /* line-height: 4rem; */
+  table-layout: auto;
+  display: block;
+  padding:  0.5rem 0.5rem 0.5rem 0.5rem;
+  /* padding-left: 1rem */
+}
+.input-item{
+  display: flex;
+  /* justify-content: space-between; */
+  line-height: 3rem;
+  /* margin: 50px; */
+  /* padding:  0.5rem 0.5rem 0.5rem 3rem; */
+  /* border */
+  /* width: 75%; */
+  /* display: inline-flex; */
+
+  /* border-bottom: rgba(44, 42, 42, 0.15) 1px; */
+}
+
+
+.item-line-wraper{
+
+  /* border: solid 3px black; */
+  width: 100%;
+}
+.input-item input{
+  font-size: 1rem;
+  padding: 1rem;
+  width: 100%;
+  border: none;
+  opacity: 0.3;
+  font-size: 1.2rem;
+  outline: none; 
+}
+.input-item button{
+line-height: 5px;
+padding: 5px;
+margin: 15PX 5px;
+background: none;
+border-radius: 10px;
+outline: none; 
+/* border: black solid 5px; */
+}
+
+
+input-checkbox{
+  padding: 1rem;
+  margin: 0 0 0 30px;
+}
+
+
+
+.controls{
+  padding: 1rem 0.5rem;
 }

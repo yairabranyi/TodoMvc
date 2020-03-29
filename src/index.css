@@ -7,7 +7,27 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
+.main-container{
+  align-items: center;
+}
+
+.itemContainer{
+  display: flex;
+  width: auto;
+  justify-content: space-between;
+  border: black 1px solid;
+  padding: 5px;
+  margin: 5px;
+
+
+}
+
+
+
+
+
+
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
+} */
